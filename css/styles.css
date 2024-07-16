@@ -1,0 +1,52 @@
+.my-div {
+    position: relative;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.image-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.my-div a {
+    display: block;
+    height: 100%;
+}
+
+.my-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen para mejor legibilidad del texto */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+}
+
+/* .parallax {
+    background-attachment: fixed;
+    background-size:auto;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: auto;
+} */
+
+.bgIndex{
+    background-image: url(../assets/img/home/bgHome.webp);
+    background-size: cover;
+    background-position: right;    
+}
