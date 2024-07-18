@@ -76,3 +76,17 @@
     width: auto;
     height: auto;
 }
+
+.card div .fw-bolder{
+    text-transform: capitalize;
+    font-size: 1em;
+}
+.shadow:hover {
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.175) !important;
+
+}
+@media (max-width: 1300px) {
+    .w-50 {
+        width: 80% !important;
+    }
+}
